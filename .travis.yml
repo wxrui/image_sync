@@ -23,13 +23,13 @@ script:
       docker pull $image
       docker tag $image $DOCKER_HUB/$image_name
       echo $ALI_REGISTRY
-      docker tag $image $ALI_REGISTRY/$ALI_USERNAME/$image_name
+      docker tag $image $ALI_REGISTRY/xrwang/$image_name
     	
       # push到dockerhub
       echo "pushing to docker hub"
       docker push $DOCKER_HUB/$image_name
       # push到阿里云仓库
       echo "pushing to ali registry"
-      docker push $ALI_REGISTRY/$ALI_USERNAME/$image_name
+      docker push $ALI_REGISTRY/xrwang/$image_name
 
     done
