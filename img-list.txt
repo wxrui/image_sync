@@ -1,6 +1,1 @@
-gcr.io/kubeflow-image-public/ingress-setup:latest
-gcr.io/kubeflow-image-public/kubernetes-sigs/application:1.0-beta
-gcr.io/kfserving/kfserving-controller:0.2.2
-gcr.io/ml-pipeline/envoy:metadata-grpc
-gcr.io/kubeflow-images-public/metadata-frontend:v0.1.8
-gcr.io/ml-pipeline/visualization-server:0.2.5
+rancher/local-path-provisioner:v0.0.14
