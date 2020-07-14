@@ -7,12 +7,12 @@ env:
   global:
     # change the registry name and username/password to yourself's.
     - DOCKER_HUB=wxrui52
-    - ALI_REGISTRY=registry.cn-hangzhou.aliyuncs.com/xinruiwang52
+    - ALI_REGISTRY=registry.cn-hangzhou.aliyuncs.com
 
 before_script:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - echo "$ALI_PASSWORD" | docker login "$ALI_REGISTRY" -u "$ALI_USERNAME" --password-stdin
- 
+
 script:
   - echo "start pull and retag and push"
   - |
@@ -23,10 +23,13 @@ script:
       docker pull $image
       docker tag $image $DOCKER_HUB/$image_name
       echo $ALI_REGISTRY
-      docker tag $image $ALI_REGISTRY/$image_name
+      docker tag $image $ALI_REGISTRY/$ALI_USERNAME/$image_name
     	
       # push到dockerhub
+      echo "pushing to docker hub"
       docker push $DOCKER_HUB/$image_name
       # push到阿里云仓库
-      docker push $ALI_REGISTRY/$image_name
+      echo "pushing to ali registry"
+      docker push $ALI_REGISTRY/$ALI_USERNAME/$image_name
+
     done
