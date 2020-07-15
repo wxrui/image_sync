@@ -1,11 +1,8 @@
-gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-cpu
-gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-gpu
-gcr.io/kubeflow-images-public/tensorflow-1.14.0-notebook-cpu
-gcr.io/kubeflow-images-public/tensorflow-1.14.0-notebook-gpu
-gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu
-gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-gpu
-gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-cpu
-gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-gpu
-gcr.io/kubeflow-images-public/pytorch-mnist-webui
 gcr.io/kubeflow-images-public/pytorch-mnist-ddp-gpu
 gcr.io/kubeflow-ci/pytorch-dist-mnist-test:v1.0
+gcr.io/kubeflow-images-public/kubeflow-codelab-notebook
+gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-gpu
+gcr.io/kubeflow-images-public/tensorflow-1.15.2-notebook-cpu
+gcr.io/kubeflow-images-public/tensorflow-2.0.0a-notebook-cpu
+gcr.io/kubeflow-images-public/tensorflow-2.0.0a-notebook-gpu
+intellinum/pytorch-1.5.1-notebook-gpu:1.0.0
