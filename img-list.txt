@@ -1,6 +1,11 @@
-gcr.io/kubeflow-images-public/admission-webhook:v1.0.0-gaf96e4e3
-gcr.io/kubeflow-images-public/centraldashboard:v1.0.0-g3ec0de71
-gcr.io/kubeflow-images-public/jupyter-web-app:v1.0.0-g2bd63238
-gcr.io/kubeflow-images-public/kfam:v1.0.0-gf3e09203
-gcr.io/kubeflow-images-public/notebook-controller:v1.0.0-gcd65ce25
-gcr.io/kubeflow-images-public/profile-controller:v1.0.0-ge50a8531
+gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-cpu
+gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-gpu
+gcr.io/kubeflow-images-public/tensorflow-1.14.0-notebook-cpu
+gcr.io/kubeflow-images-public/tensorflow-1.14.0-notebook-gpu
+gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu
+gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-gpu
+gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-cpu
+gcr.io/kubeflow-images-public/tensorflow-2.1.0-notebook-gpu
+gcr.io/kubeflow-images-public/pytorch-mnist-webui
+gcr.io/kubeflow-images-public/pytorch-mnist-ddp-gpu
+gcr.io/kubeflow-ci/pytorch-dist-mnist-test:v1.0
