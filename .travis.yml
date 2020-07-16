@@ -21,15 +21,15 @@ script:
       image_name=${image##*/}
       image_name=${image_name%@*}
       docker pull $image
-      docker tag $image $DOCKER_HUB/$image_name
-      echo $ALI_REGISTRY
-      docker tag $image $ALI_REGISTRY/xrwang/$image_name
     	
       # push到dockerhub
-      echo "pushing to docker hub"
-      docker push $DOCKER_HUB/$image_name
+      #echo "pushing to docker hub"
+      #docker tag $image $DOCKER_HUB/$image_name
+      #docker push $DOCKER_HUB/$image_name
       # push到阿里云仓库
       echo "pushing to ali registry"
+      echo $ALI_REGISTRY
+      docker tag $image $ALI_REGISTRY/xrwang/$image_name
       docker push $ALI_REGISTRY/xrwang/$image_name
 
     done
