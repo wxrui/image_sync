@@ -1,1 +1,1 @@
-gcr.io/cos-cloud/cos-gpu-installer@sha256:652687e88e9a2df8a0d529340ba21bb52a71450b36472c97ebed8c22e902b6c4
+gcr.io/google-containers/ubuntu-nvidia-driver-installer@sha256:557da67f6d0aac75f1a40a3f3f849d0b60c0128f25643b4364f27e4ae894217e
