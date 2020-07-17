@@ -1,3 +1,1 @@
-gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu@sha256:34cfdb2240d55ea3c6e1db05cc58c5202d528f8e9dab63713adbf7a05ed5243e
-gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-gpu@sha256:ba0737b2be420d6a79fb879a792f96b6830164d99e979eb7cb2598df3bf8d2ed
-gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-gpu@sha256:baf18e94e0ba933be464b81670231ddb1b63bf8c7a04d296f6e463d5d846cb31
+gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-cpu@sha256:78e7247440ee801401ce93bc59044d25d6e4cec5c752cd051ecf4562378f9567
