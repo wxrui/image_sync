@@ -1,1 +1,1 @@
-gcr.io.kubeflow-examples/ames-housing:latest
+gcr.io/kubeflow-examples/ames-housing:latest
