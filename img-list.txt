@@ -1,1 +1,1 @@
-gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-cpu@sha256:78e7247440ee801401ce93bc59044d25d6e4cec5c752cd051ecf4562378f9567
+wxrui52/notebook-base:1.0
