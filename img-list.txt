@@ -1,1 +1,2 @@
-gcr.io/kubeflow-examples/ames-housing:latest
+gcr.io/kubeflow-examples/housingserve:latest
+gcr.io/kubeflow-examples/xgboost_ames_housing_s2i:latest
