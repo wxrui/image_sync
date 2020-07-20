@@ -1,1 +1,1 @@
-wxrui52/notebook-base:1.0
+gcr.io.kubeflow-examples/ames-housing:latest
