@@ -1,2 +1,4 @@
-gcr.io/kubeflow-examples/housingserve:latest
-gcr.io/kubeflow-examples/xgboost_ames_housing_s2i:latest
+tensorflow/tensorflow:2.3.0-jupyter
+tensorflow/tensorflow:2.3.0-gpu-jupyter
+tensorflow/tensorflow:2.3.0
+tensorflow/tensorflow:2.3.0-gpu
